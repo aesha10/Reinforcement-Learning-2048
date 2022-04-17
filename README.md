@@ -5,3 +5,6 @@ Reinforcement Learning (RL) is a type of learning mechanism in which an agent le
 I chose to work on 2048, a single-player sliding block puzzle game played on a 4x4 grid with each cell a power of 2, which was released in March 2014. The goal of the game is to get a score of 2048 by shifting the grid in any of the four directions (up, down, right, left) and merging two consecutive cells with the same value (Amar & Dedieu, 2017). After attaining the goal, though, the game can be continued by generating tiles with greater numbers. The goal of this project is to create a self-learning agent that can play the game and attain the 2048 goal using Reinforcement Learning. Because of its simplicity and ease of testing Reinforcement Learning agents, 2048 has been a playground for AI researchers since its release. Despite the fact that several studies have been conducted on this game, they all differ in terms of the RL model utilized and the reward function used to train the agent 
 
 In this project, I chose to implement Deep Q-Learning Networks (DQN) and study the influence of reward function choices on agent performance.
+
+
+![ElegantSaneKingbird-size_restricted](https://user-images.githubusercontent.com/29721075/163733881-75ce4e51-33a0-4855-a4b8-a9670a693cbc.gif)
